@@ -1,0 +1,13 @@
+[debug] [2024-10-23T02:08:59.934Z] ----------------------------------------------------------------------
+[debug] [2024-10-23T02:08:59.946Z] Command:       /usr/bin/node /usr/local/bin/firebase login --reauth
+[debug] [2024-10-23T02:08:59.948Z] CLI Version:   13.22.1
+[debug] [2024-10-23T02:08:59.948Z] Platform:      linux
+[debug] [2024-10-23T02:08:59.949Z] Node Version:  v18.19.1
+[debug] [2024-10-23T02:08:59.949Z] Time:          Wed Oct 23 2024 02:08:59 GMT+0000 (Coordinated Universal Time)
+[debug] [2024-10-23T02:08:59.950Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=957090211&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
