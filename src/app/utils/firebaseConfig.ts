@@ -1,21 +1,39 @@
 // Import the functions you need from the SDKs you need
+
 import { initializeApp } from "firebase/app";
-import { getFirestore } from "firebase/firestore";
+
+import { getAnalytics } from "firebase/analytics";
+
 // TODO: Add SDKs for Firebase products that you want to use
+
 // https://firebase.google.com/docs/web/setup#available-libraries
 
+
 // Your web app's Firebase configuration
+
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
 const firebaseConfig = {
-  apiKey: "AIzaSyCPPwaDau7U3byGhfphk4_bn8IuFllYtBc",
-  authDomain: "kanban-app-tutorial.firebaseapp.com",
-  projectId: "kanban-app-tutorial",
-  storageBucket: "kanban-app-tutorial.appspot.com",
-  messagingSenderId: "254663431307",
-  appId: "1:254663431307:web:c434c88cc09d0012d2b08e",
-  measurementId: "G-MQCQDHKKM2",
+
+  apiKey: "AIzaSyBmIBUxUgBFI-qOzyk_hKTgdc_29mGObBM",
+
+  authDomain: "webappsec-bcce4.firebaseapp.com",
+
+  projectId: "webappsec-bcce4",
+
+  storageBucket: "webappsec-bcce4.appspot.com",
+
+  messagingSenderId: "9828228081",
+
+  appId: "1:9828228081:web:683043d04f3ee9dd0ac250",
+
+  measurementId: "G-7BYT4MWL2L"
+
 };
 
+
 // Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
-export const db = getFirestore(app);
+
+const analytics = getAnalytics(app);
